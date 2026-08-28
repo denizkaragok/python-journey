@@ -22,7 +22,7 @@ else:
     print("You have not met the target production.")
 
 failrate = float(input("Please enter the failure rate (as a percentage): "))
-if failrate 0 < failrate < 2:
+if failrate 0 <= failrate < 2:
     print("The failure rate is good.")
 elif failrate 2 <= failrate < 5:
     print("The failure rate is acceptable.")
